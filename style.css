@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    
+}
+
+li a {
+    text-decoration: none;
+    background-color: yellow;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+form {
+    
+}
+
+nav {
+    padding: 0px;
+    
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.centered {
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.search {
+    
+}
+
+.logo {
+    margin-top: 100px;
+}

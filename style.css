@@ -2,25 +2,54 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: wheat;
+    background-color: ;
     overflow: hidden;
 }
 
 li {
     float: left;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 7px 10px;
+    
+    
     
 }
 
 li a {
     text-decoration: none;
-    background-color: yellow;
+    background-color: ;
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 3px;
+    color: black;
+    margin-right: ;
+}
+
+.circle {
+    border: 2px solid blue;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 100%;
+    background-color: blue;
+    color: white;
+    /*
+    
+    
+     
+    
+    padding: 10px;
+    margin: 5px 30px 5px 5px;
+    text-align: ;
+    
+    */
 }
 
 form {
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -34,19 +63,85 @@ nav {
 
 .right {
     float: right;
+    margin-right: ;
 }
 
 .centered {
     position: relative;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     
 }
 
 .search {
     
+    
+    
+}
+
+input[type="text"] {
+    width: 450px;
+    height: 25px;
+    padding: 10px 10px 10px 50px;
+    border: 1px solid lightgray;
+    border-style: outset;
+    border-radius: 25px;
+    background-image: url('./img/binocular.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: cornsilk;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 5px;
+    padding: 17px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .logo {
-    margin-top: 100px;
+    margin-top: 150px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: ;
+    background-color: cornsilk;
+    width: 100%;
+    height: ;
+    margin: 0 0 0 10px;
+    
+    
+    
+}
+
+footer {
+    
+}
+
+.country {
+    
+    padding: ;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    width: ;
+    height: 40px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    text-align: ;
+    margin-bottom: ;
+    position: relative;
+    bottom: 10px;
+}
+
